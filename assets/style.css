@@ -1,0 +1,345 @@
+/* 1. Common Styles */
+/* 2. Navbar Styles */
+/* 3. HeroSection Styles */
+/* 4.Tempus Styles */
+/* 5. Volutpat Lecus */
+/* 6. ENIM EU */
+/* 7. Enectus  */
+/* 8. Footer */
+
+/* ===== 1.start of Common styles ===== */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  overflow-x: hidden;
+  background-color: #ffff;
+  font-family: "Barlow Condensed", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+
+  line-height: 115%;
+  text-align: center;
+
+  color: #466069;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 125%;
+  text-align: center;
+
+  color: #000000;
+}
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #009374;
+  padding: 12px 45px;
+  min-width: 180px;
+  transition: 0.3s;
+}
+.button:hover {
+  background: #07ad8a;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* ===== 1.end of Common styles ===== */
+
+/* ===== 2.start of navbar styles */
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px 15px;
+  background: #fff;
+}
+.navBar .headerLogo {
+  width: 282px;
+}
+/* ===== 2.end of navbar styles */
+
+/* ===== 3.start of HeroSection styles */
+.heroSection {
+  position: relative;
+  background-image: url(/assets/images/heroImg.png);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: cover;
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 90%;
+  z-index: 2;
+}
+.heroSection .title {
+  font-size: 80px;
+  line-height: 115%;
+  text-align: center;
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.heroSection .tagline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 115%;
+  text-align: center;
+
+  color: #ffffff;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.54);
+  z-index: 1;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 10px;
+}
+/* ===== 3.end of HeroSection styles */
+/* 4. Start Tempus Styles */
+
+.tempus {
+  max-width: 797px;
+  width: 90%;
+  margin: 0 auto;
+}
+.tempus .heading {
+  font-size: 36px;
+  color: #3f565e;
+}
+
+/* 4.End  Tempus Styles */
+
+/* 5.Start of VolutPat Lecus */
+.velutputLecus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1199px;
+  margin: 0 auto;
+  border-top: 1px solid #7fafa5;
+}
+.velutputLecus .text {
+  max-width: 438px;
+  width: 100%;
+}
+.velutputLecusImage {
+  width: 100%;
+}
+
+/* 5.End of VolutPat Lecus */
+
+/* 6.Start of ENIM EU */
+
+.enimeu {
+  background: #009374;
+}
+.enimeu .textWrapper {
+  max-width: 797px;
+  width: 90%;
+  margin: 0 auto;
+}
+.enimeu .heading {
+  color: #fff;
+}
+.enimeu .text {
+  color: #fff;
+}
+.enimeu .button {
+  border: 2px solid #fff;
+  transition: 0.3s;
+}
+.enimeu .button:hover {
+  background: #fff;
+  color: #009374;
+}
+/* 6.End of ENIM EU */
+
+/* 7.Start of Enectus */
+.enectus {
+  background: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  padding: 50px 0;
+}
+.enectus .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.enectus .cardWrapper {
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 0;
+}
+.enectus .heading {
+  max-width: 669px;
+  width: 100%;
+  margin: 0 auto;
+}
+.enectus .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.enectus .nameContainer {
+  background: #009374;
+  padding: 10px 10px;
+  width: 100%;
+}
+.enectus .name {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: bold;
+  font-weight: 700;
+}
+
+/* 7.End of Enectus */
+
+/* 8. Start of Footer */
+.footer {
+  background: #466069;
+}
+.footerLogo {
+  width: 265px;
+}
+.footer .footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+
+  margin: 0 auto;
+  max-width: 991px;
+  width: 100%;
+}
+.footer .box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer .address {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 140%;
+}
+.footer .socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer .socialIcon {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.footer .icon {
+  color: #466069;
+  font-size: 18px;
+}
+.footer .footerItems {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 50px;
+}
+.footer .footerItem {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer .copyRight {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding-top: 20px;
+}
+/* 8. End of Footer */
