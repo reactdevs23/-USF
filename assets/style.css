@@ -274,6 +274,8 @@ p {
   background: #009374;
   padding: 10px 10px;
   width: 100%;
+  position: relative;
+  z-index: 4;
 }
 .enectus .name {
   font-size: 22px;
