@@ -262,6 +262,13 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+.enectus .image {
+  transition: 0.3s;
+}
+.enectus .image:hover {
+  transform: scale(1.1);
 }
 .enectus .nameContainer {
   background: #009374;
