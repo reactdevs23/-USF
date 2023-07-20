@@ -1,0 +1,76 @@
+/* 1. Common Styles */
+/* 2. Navbar Styles */
+/* 3. HeroSection Styles */
+/* 4.Tempus Styles */
+/* 5. Volutpat Lecus */
+/* 6. ENIM EU */
+/* 7. Enectus  */
+/* 8. Footer */
+
+@media only screen and (max-width: 991px) {
+  /* 1 common styles */
+  .button {
+    font-size: 20px;
+  }
+  /* 3.Hero Section styles */
+  .heroSection {
+    min-height: auto;
+    min-height: 500px;
+  }
+
+  .heroSection .title {
+    font-size: 60px;
+  }
+  .heroSection .tagline {
+    font-size: 24px;
+  }
+  /* 5.VolutPat Lecus Styes */
+  .velutputLecus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .velutputLecusImage {
+    max-width: 500px;
+  }
+  /* 7. Enectus */
+  .enectus .cardWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* 8. Footer */
+  .footer .footerContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .footer .copyRight {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  /* 1 navbar */
+
+  .navBar .headerLogo {
+    width: 265px;
+  }
+  /* 3.Hero Section styles */
+
+  .textContainer {
+    gap: 15px;
+  }
+  .heroSection .title {
+    font-size: 50px;
+  }
+  .heroSection .tagline {
+    font-size: 18px;
+  }
+  .buttonContainer {
+    gap: 20px;
+  } /* 7. Enectus */
+  .enectus .cardWrapper {
+    grid-template-columns: 1fr;
+  }
+}
